@@ -1,0 +1,93 @@
+body
+{
+    background-color:cornflowerblue;
+    background:linear-gradient(white);
+    background-attachment: fixed;
+    font-family:monospace;
+    background-image: url("./download\ \(1\).jpg");
+  background-position : center;
+  background-repeat : no-repeat;
+  background-size : cover;
+  opacity:2;
+
+}
+#form
+{
+    width:300px;
+    margin-left: 1000px;
+    background-color:rgb(104, 86, 92);
+    border-radius: 15px;
+    padding: 30px;
+}
+#form button
+{
+    color:white;
+    background-color: blueviolet;
+    border-radius: 30px;
+    margin: 20px;
+    width:100px;
+}
+h1{
+    text-align: center;
+}
+.input-group{
+display:flex;
+flex-direction: column;
+margin-bottom: 30px;
+}
+.input-group input{
+    border-radius: 10px;
+    padding:5px;
+
+}
+.icon-bar {
+    width: 100%;
+    background-color:white;
+    overflow: auto;
+    background-repeat : no-repeat;
+    radius:20%;
+
+
+  }
+  
+  .icon-bar a {
+    float: left;
+    width: 10%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 19px;
+  }
+  
+  .icon-bar a:hover {
+    background-color:bisque;
+  }
+  .active
+  {
+    background-color:fuchsia;
+  }
+  .icon-bar1 {
+    width: 10%;
+    overflow: auto;
+    height: 20px;
+    text-align: right;
+    background-repeat : no-repeat;
+
+
+  }
+  .container
+  {
+   padding-left:5%;
+   margin:5%;
+
+  }
+
+  a:link
+  {
+    background-color: transparent;
+    text-decoration: none;
+
+  }
+  .write
+  {
+    font-size: medium;
+  }
